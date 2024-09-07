@@ -15,8 +15,8 @@ Make sure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo-url.git
-    cd your-repo-name
+    git clone [https://github.com/your-repo-url.git](https://github.com/AbhishekD879/factwise-assignment.git)
+    cd factwise-assignment
     ```
 
 2. Install the dependencies:
