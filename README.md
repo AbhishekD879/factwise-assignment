@@ -1,3 +1,70 @@
+# Vite App
+
+This is a Vite-powered web application. Follow the instructions below to set up and run the app locally.
+
+## How to Run the App
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (v6 or higher)
+
+### Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-repo-url.git
+    cd your-repo-name
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+    This will start the development server. Open your browser and visit `http://localhost:3000`.
+
+4. Build for production:
+    ```bash
+    npm run build
+    ```
+
+    This command will generate the production-ready files in the `dist` folder.
+
+5. Preview the production build:
+    ```bash
+    npm run preview
+    ```
+
+    This command serves the production build locally.
+
+## Video Demonstration
+
+Here is a video walkthrough of the app:
+
+<video width="600" controls>
+  <source src="./factwise-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Project Structure
+
+- `src/` - Contains the main application code
+- `public/` - Static assets
+- `vite.config.js` - Vite configuration file
+- `package.json` - Project dependencies and scripts
+
+## License
+
+This project is licensed under the MIT License.
+
 You are a famous hacker who has access to a list of the world's most famous celebrities.
 You have to create a system where you can view and edit their details to hide their public presence.
 
